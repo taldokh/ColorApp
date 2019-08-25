@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backup_background"
+    tools:context=".Backup">
+
+    <Button
+        android:id="@+id/backup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="backup"/>
+
+    <EditText
+        android:id="@+id/string_edit_text"
+        android:layout_toRightOf="@id/backup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFF"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="18dp"
+        android:background="#50000000"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/string_edit_text"
+        android:text="in order to backup you need to save a copy of the list of the colors that you have and then paste it in the text field and then press the backup button"/>
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_background"
+    tools:context="com.example.user.colorapp.MainActivity">
+
+   <TextView
+       android:id="@+id/colorView"
+       android:layout_marginLeft="8dp"
+       android:textSize="32sp"
+       android:textColor="#311B92"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:fontFamily="sans-serif-thin"
+       android:text="Please take a photo or select an image to get the color" />
+
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btnCamera"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/outline_camera_alt_white_24"
+            app:fabSize="normal"
+            app:elevation="4dp"
+            app:backgroundTint="#ff0000"
+            />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btnGallary"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/outline_photo_library_white_24"
+            app:fabSize="normal"
+            app:elevation="4dp"
+            app:backgroundTint="#ff0000"
+            />
+
+
+
+</RelativeLayout>
